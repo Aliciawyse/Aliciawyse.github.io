@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <title>Skills | Alicia Barrett</title>
     <link rel="stylesheet" href="css/style.css">
+<script>
+
+function expand(img) {
+    img.style.width = "85%";
+}
+
+function normal(img) {
+    img.style.width = "45%";
+}
+  
+</script>
+
 </head>
 <body>
     <header>
@@ -17,11 +29,14 @@
     </header>
     <main>
         <h1>Skills</h1>
-        <p>If you're interested in checking out my portfolio, be sure to visit my <a href="https://github.com/Aliciawyse/">GitHub account</a>. Below is a snapshot of other recent achievements.</p>
-        <img src = "images/results.png" width=85%
+        <p>I'm building my web design skills everyday. Hover over the images below to get a snapshot of my most recent accomplishments. If you're interested in viewing my entire portfolio, check out my <a href="https://github.com/Aliciawyse/">GitHub page</a>.</p>
+        <img onmouseover="expand(this)" onmouseleave="normal(this)" src = "images/typing.png" width=45%
             alt = "typing test results">
-        <img src = "images/htmlcert.png" width=85%
-            alt = "courser certificate">
+        <img onmouseover="expand(this)" onmouseleave="normal(this)" src = "images/htmlcert.png" width=45%
+            alt = "html certificate">
+            
+        <img onmouseover="expand(this)" onmouseleave="normal(this)" src = "images/csscert.png" width=45%
+            alt = "css certificate">
     </main>
     <footer>
         <p></p>
