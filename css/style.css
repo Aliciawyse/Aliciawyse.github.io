@@ -35,7 +35,7 @@ nav a:hover {
 
 figure img {
     border: 3px solid black;
-    border-radius:20%;
+    border-radius:80%;
     width:95%;
 }
 figure {
@@ -48,6 +48,9 @@ h1 {
     font-family:arial, georgia;
 }
 
+h2 {
+    margin-bottom:-20px;
+}
 p {
     font-size:20px;
     padding-right:20%;
@@ -70,12 +73,10 @@ nav ul {
 main ul li{
     color:black;
     list-style:none;
-    display:block;
+    display:inline-block;
     margin:0 auto;
-    padding:4%;
-    width:30%;
+    padding:2%;
     font-size:20px;
-    border:2px solid black;
 }
 
 @media (max-width: 500px) {
