@@ -6,6 +6,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="jquery.bsPhotoGallery.js"></script>
+    <script>
+        $(document).ready(function(){
+  $('ul.first').bsPhotoGallery({
+    "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
+    "hasModal" : true
+  });
+});
+    </script>
 </head>
 <body>
     <header>
@@ -14,9 +24,18 @@
             <a href="projects.html"class="active">Projects</a>
         </nav>
     </header>
+    
     <section>
         <h1>Projects</h1>
         <p>While working for The Community Foundation for the National Capital Region, I created a few infographics to engage our donors using a tool called Piktochart.</p>
     </section>
+    
+    <figure>
+        <img src ="images/infographic1.jpeg" alt="myinfographic" width=25%>
+    </figure>
+     <figure>
+        <img src ="images/infographic2.jpeg" alt="myinfographic" width=25%>
+    </figure>
+    
 </body>
 </html>

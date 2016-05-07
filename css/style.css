@@ -30,6 +30,11 @@ section{
     padding:1%;
 }
 
+img {
+    margin-left:40%;
+    margin-top:2%;
+}
+
 @media all and (min-width:900px){
     nav {
     background:#898999;
@@ -49,4 +54,10 @@ nav a{
     border:1px solid white;
     border-radius: 90px;
 }
+
+img {
+    float:left;
+    margin:3%;
+}
+
 }
