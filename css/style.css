@@ -31,8 +31,9 @@ section{
 }
 
 img {
-    margin-left:40%;
-    margin-top:2%;
+    margin:2%;
+    margin-left: 23%;
+    width:60%;
 }
 
 @media all and (min-width:900px){
@@ -57,7 +58,8 @@ nav a{
 
 img {
     float:left;
-    margin:3%;
+    margin:2%;
+    width:25%;
 }
 
 }
