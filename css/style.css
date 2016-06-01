@@ -4,6 +4,7 @@ nav {
     font-size:135%;
     font-family: Arial, "Time New Roman";
     padding:1%;
+    height:100%;
 }
 
 nav a{
@@ -25,7 +26,6 @@ nav a:hover {
 
 section{
     width:50%;
-    height:100%;
     margin:0 auto;
     padding:1%;
 }
@@ -37,14 +37,17 @@ img {
 }
 
 @media all and (min-width:900px){
-    nav {
+
+nav {
     background:#898999;
     text-align:center;
     font-size:150%;
     font-family: Arial, "Time New Roman";
     float:left;
-    height:100vh;
     width:20%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
 }
 
 nav a{
@@ -57,10 +60,12 @@ nav a{
 }
 
 img {
-    float:left;
+    float:right;
     margin:2%;
     width:25%;
+    margin-right:10%;
 }
+
 
 }
 
