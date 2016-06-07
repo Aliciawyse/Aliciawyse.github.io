@@ -13,7 +13,7 @@ nav a{
     display:block;    
     margin:2%;
     text-decoration:none;
-    border:1px solid white;
+    border:2px solid white;
     border-radius: 90px;
     padding:1%;
     transition: .5s ease;
@@ -61,7 +61,7 @@ nav a{
     display:block;
     margin:10%;
     text-decoration:none;
-    border:1px solid white;
+    border:2px solid white;
     border-radius: 90px;
 }
 
